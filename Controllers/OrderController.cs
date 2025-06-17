@@ -15,7 +15,7 @@ namespace ProcessingOrderAPI.Controllers
         {
             _csvService = csvService;
         }
-        //C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\values.csv
+       
         [HttpPost("read-orders-csv")]
         public async Task<IActionResult> GetOrdersCSV([FromForm] IFormFileCollection file)
         {
