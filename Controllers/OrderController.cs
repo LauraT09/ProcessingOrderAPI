@@ -6,22 +6,30 @@ namespace ProcessingOrderAPI.Controllers
 {
 
     [ApiController]
-    [Route("[controller]")]
-    public class OrderController : Controller
+    [Route("api/orders")]
+    public class OrderController : ControllerBase
     {
         private readonly ICSVService _csvService;
+        private readonly IWebHostEnvironment _env;
 
-        public OrderController(ICSVService csvService)
+        public OrderController(ICSVService csvService, IWebHostEnvironment env)
         {
             _csvService = csvService;
+            _env = env;
         }
-       
-        [HttpPost("read-orders-csv")]
-        public async Task<IActionResult> GetOrdersCSV([FromForm] IFormFileCollection file)
-        {
-            var orders = _csvService.ReadCSV<Orders>(file[0].OpenReadStream());
 
-            return Ok(orders);
+        [HttpGet("TopFiveOrders")]
+        public IActionResult GetTopFiveOrders()
+        {
+            string filePath = Path.Combine(_env.ContentRootPath, "Data", "values.csv");
+
+            if (!System.IO.File.Exists(filePath))
+            {
+                return NotFound("CSV file not found");
+            }
+
+            var result = _csvService.GetTopFiveOrders(filePath);
+            return Ok(result);
         }
     }
 }

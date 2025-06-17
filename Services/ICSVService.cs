@@ -1,7 +1,9 @@
-﻿namespace ProcessingOrderAPI.Services
+﻿using ProcessingOrderAPI.Models;
+
+namespace ProcessingOrderAPI.Services
 {
     public interface ICSVService
     {
-        public IEnumerable<T> ReadCSV<T>(Stream file);   
+        List<OrderSummary> GetTopFiveOrders(string csvPath); 
     }
 }

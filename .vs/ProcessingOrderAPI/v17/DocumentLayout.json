@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\services\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:services\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\services\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:services\\csvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\models\\ordersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:models\\ordersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\services\\icsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:services\\icsvservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|c:\\users\\laura torres\\documents\\mis docus\\nielseniq\\problem\\processingorderapi\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B06B1030-CD08-4A35-9FEB-EAC6277716B9}|ProcessingOrderAPI.csproj|solutionrelative:models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "OrderSummary.cs",
+              "DocumentMoniker": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Models\\OrderSummary.cs",
+              "RelativeDocumentMoniker": "Models\\OrderSummary.cs",
+              "ToolTip": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Models\\OrderSummary.cs",
+              "RelativeToolTip": "Models\\OrderSummary.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T17:23:28.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Controllers\\OrderController.cs",
               "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T16:16:10.903Z",
               "EditorCaption": ""
@@ -64,41 +77,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CSVService.cs",
               "DocumentMoniker": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Services\\CSVService.cs",
               "RelativeDocumentMoniker": "Services\\CSVService.cs",
               "ToolTip": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Services\\CSVService.cs",
               "RelativeToolTip": "Services\\CSVService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwE0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T16:06:55.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ICSVService.cs",
               "DocumentMoniker": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Services\\ICSVService.cs",
               "RelativeDocumentMoniker": "Services\\ICSVService.cs",
               "ToolTip": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Services\\ICSVService.cs",
               "RelativeToolTip": "Services\\ICSVService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T16:05:23.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Orders.cs",
-              "DocumentMoniker": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Models\\Orders.cs",
-              "RelativeDocumentMoniker": "Models\\Orders.cs",
-              "ToolTip": "C:\\Users\\Laura Torres\\Documents\\Mis docus\\NielsenIQ\\Problem\\ProcessingOrderAPI\\Models\\Orders.cs",
-              "RelativeToolTip": "Models\\Orders.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T16:00:56.636Z",
+              "WhenOpened": "2025-06-17T16:05:23.95Z",
               "EditorCaption": ""
             }
           ]

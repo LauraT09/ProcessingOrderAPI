@@ -1,18 +1,12 @@
 [
   {
     "ContainingType": "ProcessingOrderAPI.Controllers.OrderController",
-    "Method": "GetOrdersCSV",
-    "RelativePath": "Order/read-orders-csv",
-    "HttpMethod": "POST",
+    "Method": "GetTopFiveOrders",
+    "RelativePath": "api/orders/TopFiveOrders",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFileCollection",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

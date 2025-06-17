@@ -31,3 +31,4 @@ C:\Users\Laura Torres\Documents\Mis docus\NielsenIQ\Problem\ProcessingOrderAPI\o
 C:\Users\Laura Torres\Documents\Mis docus\NielsenIQ\Problem\ProcessingOrderAPI\obj\Debug\net8.0\ProcessingOrderAPI.pdb
 C:\Users\Laura Torres\Documents\Mis docus\NielsenIQ\Problem\ProcessingOrderAPI\obj\Debug\net8.0\ProcessingOrderAPI.genruntimeconfig.cache
 C:\Users\Laura Torres\Documents\Mis docus\NielsenIQ\Problem\ProcessingOrderAPI\obj\Debug\net8.0\ref\ProcessingOrderAPI.dll
+C:\Users\Laura Torres\Documents\Mis docus\NielsenIQ\Problem\ProcessingOrderAPI\obj\Debug\net8.0\ProcessingOrderAPI.sourcelink.json
