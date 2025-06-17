@@ -34,7 +34,7 @@ namespace ProcessingOrderAPI.Services
 
             if (type == ProductType)
                 ProcessProductLine(fields, orderNo, orderTotals);
-            else if (type == CreditType)
+            if (type == CreditType)
                 ProcessCreditLine(fields, orderNo, orderTotals);
         }
 
