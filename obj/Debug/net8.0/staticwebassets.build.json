@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Za2HEfSei2OQgT3xSSCyjBeqWgEBI4etJ9bgCXDXgRE=",
+  "Source": "ProcessingOrderAPI",
+  "BasePath": "_content/ProcessingOrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
